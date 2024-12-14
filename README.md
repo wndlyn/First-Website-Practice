@@ -1,42 +1,53 @@
-# Simple Website
+# Simple HTML Portfolio
 
-A simple website built using HTML, CSS, and JavaScript. This website showcases basic web development practices, including a clean layout, interactive elements, and responsiveness.
+This is a simple HTML portfolio project created as part of the Application Development subject. This project showcases my first experience in web development, where I built a webpage displaying multiple images and names.
 
-## Table of Contents
+## Project Description
 
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
+This project is a basic HTML page featuring several images with names displayed beneath them. The page uses external CSS for styling, layout, and visuals. The images are aligned in a grid layout to create a simple yet visually appealing structure.
 
-## Project Overview
-
-This is a basic website designed to demonstrate the use of HTML, CSS, and JavaScript. The website includes static pages with a simple navigation menu, interactive elements, and a responsive design that adjusts to different screen sizes.
-
-## Features
-
-- **Responsive Design**: The website is mobile-friendly and adjusts to different screen sizes (desktop, tablet, mobile).
-- **Interactive Elements**: Includes simple JavaScript features such as interactive buttons or image sliders.
-- **Clean Layout**: A modern, clean design with well-structured HTML and styled using CSS.
+### Features:
+- Displays four images with titles.
+- A clean and simple layout with basic styling.
+- Responsive design using Flexbox.
 
 ## Technologies Used
 
-- **HTML**: Used to create the structure and content of the website.
-- **CSS**: Used for styling the layout, typography, colors, and responsive design.
-- **JavaScript**: Used for basic interactive functionality (e.g., button clicks, form validation).
+- **HTML**: For the basic structure of the webpage.
+- **CSS**: For styling the page, including Flexbox for layout.
+- **Flexbox**: For creating a responsive, grid-based layout.
 
 ## Installation
 
-Follow these steps to get the website running locally:
+To use this project, follow these steps:
 
-1. **Clone the Repository**:
-   Clone the repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/yourusername/simple-website.git
+1. **Clone or Download the Repository:**
+   - If using Git:
+     ```bash
+     git clone <repository_url>
+     ```
+   - Alternatively, download the HTML and CSS files directly from the repository.
 
+2. **Open the Project in a Browser:**
+   - After downloading or cloning, open the `index.html` file in any modern web browser.
+
+## How to Use
+
+1. **Viewing the Page:**
+   - Open the `index.html` file to view the webpage. It will display the images with the name "Wendelyn Paller" under each one.
    
-### Instructions:
-- Replace `<repository-url>` with the actual URL of your project repository (e.g., GitHub link).
-- Make sure the `index.html` file is correctly placed along with other resources such as CSS and JS files when you share or deploy the project.
+2. **Customizing the Content:**
+   - To change the images or names:
+     - Modify the `<img src="image_url">` tags with your image URLs.
+     - Change the text inside the `<h3>` tags to update the names.
 
+### Example HTML Structure
 
+```html
+<div class="container">
+    <div class="image">
+        <img src="image_url" alt="Just a photo">
+        <h3 style="color: #e41595">Wendelyn Paller</h3>
+    </div>
+    <!-- Repeat for other images -->
+</div>
